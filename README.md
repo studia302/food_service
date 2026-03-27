@@ -39,4 +39,8 @@ python manage.py runserver
 
 Админ-панель: `http://127.0.0.1:8000/admin/`
 
+Swagger: `http://127.0.0.1:8000/api/docs/`
+
+Redoc:  `http://127.0.0.1:8000/api/redoc/`
+
 ---
