@@ -28,10 +28,13 @@ pip install -r requirements.txt
 # 4. Примените миграции базы данных
 python manage.py migrate
 
-# 5. Создайте суперпользователя для доступа в админку
+# 5. Загружаем тестовые данные
+python manage.py load_test_data
+
+# 6. Создайте суперпользователя для доступа в админку
 python manage.py createsuperuser
 
-# 6. Запустите сервер разработки
+# 7. Запустите сервер разработки
 python manage.py runserver
 ```
 
